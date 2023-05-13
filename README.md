@@ -1,0 +1,1 @@
+Para fazer esse projeto utilizamos create-react-app

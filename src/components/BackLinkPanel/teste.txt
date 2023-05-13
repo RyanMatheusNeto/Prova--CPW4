@@ -1,0 +1,17 @@
+import Header from "../Header"
+
+
+describe('<BackLinkPanel />', () => {
+    it('should render Title correctly', () => {
+    
+  
+        cy.mount(
+          <Header />
+        )
+  
+        const title = 'Crypto Search'
+  
+  
+        cy.get('[data-cy="botão-voltar"]').click('', title)
+      })
+    })
